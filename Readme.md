@@ -15,12 +15,8 @@ Pats uzdevums ir aprakstīts iekš faila **Uzdevums.md**.
 Java web arhīva fails **.war** ir kompilējams ar Maven.
 
 # Web API
-| URI | | Vaicājuma parametri | Rezultāts |
-| --- | --- | --- | --- |
-| api/warehouse/products/{productid} | GET | String | json: {errors: [{code: Integer, message: String}], message: String, productId: String, quantityAvailable: BigDecimal} |
-| api/warehouse/products/new/{productid} | GET | String | json: {errors: [{code: Integer, message: String}], message: String} |
-| api/warehouse/ship | POST | json: {productid: String, quantity: BigDecimal} | json: {errors: [{code: Integer, message: String}], message: String} |
-| api/factory/produce | POST | json: {productid: String, quantity: BigDecimal} | json: {errors: [{code: Integer, message: String}], message: String} |
+| URI | | Vaicājuma parametri | Rezultāts | Apraksts |
+| --- | --- | --- | --- | --- |
 
 # Web API atbildes kļūdu saraksts
 | code | message |
