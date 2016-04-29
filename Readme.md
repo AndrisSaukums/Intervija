@@ -17,6 +17,10 @@ Java web arhīva fails **.war** ir kompilējams ar Maven.
 # Web API
 | URI | | Vaicājuma parametri | Rezultāts | Apraksts |
 | --- | --- | --- | --- | --- |
+| api/warehouse/products/**{productid}** | GET | String | json: {**errors**: [{**code**: *Integer*, **message**: *String*}], **message**: *String*, **productId**: *String*, **quantityAvailable**: *BigDecimal*} | Atgriež pieejamo Produkta daudzumu noliktavā. |
+| api/warehouse/products/new/**{productid}** | GET | String | json: {**errors**: [{**code**: *Integer*, **message**: *String*}], **message**: *String*} | Reģistrē jaunu Produkta numuru noliktavā. |
+| api/warehouse/ship | POST | json: {**productid**: *String*, **quantity**: *BigDecimal*} | json: {**errors**: [{**code**: *Integer*, **message**: *String*}],**message**: *String*} | Izpilda klienta pasūtījumu, samazinot Produkta daudzumu noliktavā. |
+| api/factory/produce | POST | json: {**productid**: *String*, **quantity**: *BigDecimal*} | json: {**errors**: [{**code**: *Integer*, **message**: *String*}], **message**: *String*} | Saražo nepieciešamo daudzumu un ievieto noliktavā. |
 
 # Web API atbildes kļūdu saraksts
 | code | message |
