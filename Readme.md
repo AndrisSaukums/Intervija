@@ -1,4 +1,4 @@
-Mazs prasmju pārbaudes projekts darba intervijai, lai būtu par ko diskutēt.
+Mazs prasmju pārbaudes projekts.
 
 Lai izpildītu uzdevumu, nav nepieciešams kompilēt un darbināt šo projektu. Taču iesūtītie risinājumi tiks testēti tieši pret šo projektu.
 

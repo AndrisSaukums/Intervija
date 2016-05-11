@@ -13,9 +13,4 @@ Klienta programma saņem divas vērtības - Produkta numuru un Daudzumu. To var 
 # Risinājumu iesniegšanas veids
 Risinājumu nepieciešams izvietot uz Github'a un atsūtīt saiti uz e-pastu, ko nosūtīs Personāldaļa.
 
-Vēlākais iesniegšanas datums ir viena darba diena pirms intervijas dienas.
-
-Taču, jo ātrāk es varēšu aplūkot risinājumu, jo ātrāk varēšu sniegt jau kādus komentārus. Man svarīgi ir redzēt izstrādes gaitu, nevis tikai gatavo produktu.
-
-# p.s.
-Projekta pamat funkcionalitāte ir gatava - tā netiks mainīta. Taču laika gaitā tiks papildināts apraksts, koda komentāri, varbūt nedaudz papildināta funkcionalitāte. Tas tā, lai būtu interesantāk! :)
+Man svarīgi ir redzēt izstrādes gaitu, nevis tikai gatavo produktu.
