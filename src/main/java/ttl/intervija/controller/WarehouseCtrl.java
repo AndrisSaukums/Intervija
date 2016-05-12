@@ -43,6 +43,7 @@ public class WarehouseCtrl {
         }
 
         resp.setProductId(productId);
+        resp.setMessage("Produkta " + productId + " daudzums noliktavā: " + qtyInWarehouse.toString());
 
         return resp;
     }
@@ -61,7 +62,7 @@ public class WarehouseCtrl {
         if (notes.hasErrors()){
             resp.setErrors(notes.getErrors());
         } else {
-            resp.setMessage("Operācija veiksmīga");
+            resp.setMessage("Produkts " + productId + " tika reģistrēts noliktavā.");
         }
 
         return resp;
@@ -84,7 +85,10 @@ public class WarehouseCtrl {
         if (notes.hasErrors()){
             resp.setErrors(notes.getErrors());
         } else {
-            resp.setMessage("Operācija veiksmīga");
+            resp.setMessage("Pasūtījums izpildīts. Produkta numurs: "
+                            + shippingOrder.getProductid()
+                            + " Daudzums: "
+                            + shippingOrder.getQuantity().toString());
         }
 
         return resp;

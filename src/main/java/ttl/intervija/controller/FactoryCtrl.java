@@ -33,7 +33,7 @@ public class FactoryCtrl {
         if (notes.hasErrors()){
             resp.setErrors(notes.getErrors());
         } else {
-            resp.setMessage("Operācija veiksmīga");
+            resp.setMessage("Nepieciešamais daudzums saražots. " + productionOrder.getQuantity().toString());
         }
 
         return resp;
